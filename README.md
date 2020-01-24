@@ -1,5 +1,5 @@
 # InvertedIndex-VectorSpace
- Simple Info Retrieval utilizing Vector Space model
+ Simple Search Engine utilizing Vector Space model
 
 
 # Test
