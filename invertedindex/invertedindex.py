@@ -2,8 +2,7 @@ from typing import List, Iterable, Dict
 from math import log2
 import copy
 
-from invertedindex.hashmapvector import HashMapVector
-from utils import foreach
+from invertedindex import HashMapVector
 
 
 class Document:
