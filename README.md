@@ -4,11 +4,11 @@
 
 # Test
 ```python
- 	print("-- Test 1 ---\nDoc1: this is test number one\nDoc2: this is test number two")
-    documents  = [Document("Doc1", ["this", "is", "test", "number", "one"]), Document("Doc2", ["this", "is", "test", "number", "two"])]
-    index = InvertedIndex(documents)
-    print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "one"])}')
-    print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "two"])}')
+print("-- Test 1 ---\nDoc1: this is test number one\nDoc2: this is test number two")
+documents  = [Document("Doc1", ["this", "is", "test", "number", "one"]), Document("Doc2", ["this", "is", "test", "number", "two"])]
+index = InvertedIndex(documents)
+print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "one"])}')
+print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "two"])}')
 ```
 
 # Demo
