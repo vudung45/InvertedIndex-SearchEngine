@@ -78,7 +78,7 @@ if __name__ == "__main__":
     documents  = [Document("Doc1", ["this", "is", "test", "number", "one"]), Document("Doc2", ["this", "is", "test", "number", "two"])]
     index = InvertedIndex(documents)
     print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "one"])}')
-    print(f'Testing with query: number one. Rankings: {index.retrieve(["number", "two"])}')
+    print(f'Testing with query: number two. Rankings: {index.retrieve(["number", "two"])}')
 
 
 
