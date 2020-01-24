@@ -51,6 +51,7 @@ class InvertedIndex:
             # multiply each term frequency weight with its corresponding idf weight
             for word in hmv.weights:
                 hmv.weights[word] *= self.idfs[word] if word in self.idfs else 0
+            hmv.normalize()
 
 
     def retrieve(self, words: List[str], threshold = 0.1) -> List[str]: 
